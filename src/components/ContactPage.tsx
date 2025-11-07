@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowLeft, Mail, Phone, Linkedin, Github, MapPin, Download } from 'lucide-react';
-import cvEn from '../assets/CV_vignau_lucas _english.pdf';
-import cvFr from '../assets/CV_vignau_lucas 2025.pdf'; 
+import cvEn from '../assets/CV_vignau_lucas_2025_en.pdf';
+import cvFr from '../assets/CV_vignau_lucas_2025_fr.pdf'; 
 
 interface ContactPageProps {
   language: 'en' | 'fr';
