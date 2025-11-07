@@ -4,7 +4,7 @@ import { ArrowLeft, Github, Linkedin, Mail } from 'lucide-react';
 import shopyverseImage from 'figma:asset/9fe5802b2e87d0a1e9a3bb9a8a17baec83f53a3c.png';
 import eventyImage from 'figma:asset/a7873e0d844a8e97dcac29945bd9c0ed9256b163.png';
 import stikomImage from 'figma:asset/3e91919c908ba15bb7c9a34f7ebb8107d7b84fd5.png';
-import festivalJeuImage from '/Users/vignaulucas/Downloads/portfolio_vignau/src/assets/festivalJeu.png';
+import festivalJeuImage from '../assets/festivalJeu.png';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 interface ProjectsPageProps {

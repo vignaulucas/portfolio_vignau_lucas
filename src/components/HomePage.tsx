@@ -4,8 +4,8 @@ import { TechIcon } from './TechIcon';
 import profileImage from 'figma:asset/7838df85c072f0a934bcbac0bdeaf00d8b0d2e65.png';
 import shopyverseImage from 'figma:asset/9fe5802b2e87d0a1e9a3bb9a8a17baec83f53a3c.png';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import cvEn from '/Users/vignaulucas/Downloads/portfolio_vignau/src/assets/CV_vignau_lucas _english.pdf';
-import cvFr from '/Users/vignaulucas/Downloads/portfolio_vignau/src/assets/CV_vignau_lucas 2025.pdf'; 
+import cvEn from '../assets/CV_vignau_lucas _english.pdf';
+import cvFr from '../assets/CV_vignau_lucas 2025.pdf'; 
 
 interface HomePageProps {
   language: 'en' | 'fr';
