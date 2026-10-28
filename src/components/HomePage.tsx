@@ -16,8 +16,8 @@ export function HomePage({ language, onNavigateToProjects }: HomePageProps) {
   const translations = {
     en: {
       greeting: "Hi, I'm Lucas VIGNAU",
-      role: "5th-year Software Engineering Student at Polytech Montpellier",
-      seeking: "Currently seeking a software development position starting March 2026",
+      role: "Software Engineer — Polytech Montpellier Graduate",
+      seeking: "Seeking a Full-Stack Software Engineer position starting November 2026",
       downloadCV: "Download CV",
       latestProject: "Latest Project",
       projectTitle: "Shopify E-Commerce Platform",
@@ -38,8 +38,8 @@ export function HomePage({ language, onNavigateToProjects }: HomePageProps) {
     },
     fr: {
       greeting: "Bonjour, je suis Lucas VIGNAU",
-      role: "Étudiant en 5e année d'Ingénierie Logicielle à Polytech Montpellier",
-      seeking: "Recherche actuellement un poste de développeur à partir de mars 2026",
+      role: "Ingénieur diplômé de Polytech Montpellier en informatique et gestion",
+      seeking: "À la recherche d’un poste d’ingénieur logiciel Full-Stack dès novembre 2026",
       downloadCV: "Télécharger CV",
       latestProject: "Dernier Projet",
       projectTitle: "Plateforme E-Commerce Shopify",
@@ -99,13 +99,13 @@ export function HomePage({ language, onNavigateToProjects }: HomePageProps) {
   : 'CV_Lucas_VIGNAU_EN.pdf';
 
   return (
-    <div className="container mx-auto px-6 py-24 space-y-24 relative z-10">
+    <div className="container mx-auto px-6 pt-24 pb-24 md:pt-28 md:pb-24 space-y-24 relative z-10">
       {/* Introduction Section */}
       <motion.section
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="grid md:grid-cols-2 gap-12 items-center min-h-[80vh]"
+        className="grid md:grid-cols-2 gap-12 items-center min-h-0 md:min-h-[65vh]"
       >
         <div className="space-y-6">
           <motion.div

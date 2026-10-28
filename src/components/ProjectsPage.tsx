@@ -105,7 +105,7 @@ export function ProjectsPage({ language, onNavigateToHome }: ProjectsPageProps) 
       <motion.header
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        className="container mx-auto px-6 pt-24 pb-12"
+        className="container mx-auto px-6 pt-24 md:pt-28 pb-12"
       >
         <motion.button
           onClick={onNavigateToHome}

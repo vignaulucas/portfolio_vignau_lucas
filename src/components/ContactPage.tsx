@@ -13,7 +13,7 @@ export function ContactPage({ language, onNavigateToHome }: ContactPageProps) {
     en: {
       title: 'Contact Me',
       back: 'Back to Home',
-      subtitle: 'Currently seeking a junior full-stack developer position or a pre-employment internship starting March 2026',
+      subtitle: 'Engineering graduate seeking a Full-Stack Software Engineer position starting November 2026',
       getInTouch: 'Get in Touch',
       email: 'Email',
       phone: 'Phone',
@@ -27,20 +27,20 @@ export function ContactPage({ language, onNavigateToHome }: ContactPageProps) {
       educationTitle: 'Engineering Degree in Computer Science and Management',
       educationSchool: 'Polytech Montpellier – School of Engineering',
       educationPeriod: '2022 – 2026',
-      educationDescription: 'Engineering degree equivalent to Master (M.Eng)',
+      educationDescription: 'Graduated in 2026 — Engineering degree (M.Eng equivalent)',
       languages: 'Languages',
       languagesFr: 'French (Native)',
       languagesEn: 'English (Upper-Intermediate)',
       languagesEs: 'Spanish (Intermediate)',
       skills: 'Technical Skills',
       availability: 'Availability',
-      availabilityText: 'Available from March 2026',
+      availabilityText: 'Available from November 2026',
       footer: '© 2025 Lucas VIGNAU – Built with passion 💙',
     },
     fr: {
       title: 'Me Contacter',
       back: 'Retour à l\'Accueil',
-      subtitle: 'Recherche actuellement un poste de développeur full stack junior ou un stage de pré-embauche à partir de mars 2026',
+      subtitle: 'Ingénieur diplômé, à la recherche d’un poste en développement logiciel Full-Stack dès novembre 2026',
       getInTouch: 'Entrer en Contact',
       email: 'Email',
       phone: 'Téléphone',
@@ -54,14 +54,14 @@ export function ContactPage({ language, onNavigateToHome }: ContactPageProps) {
       educationTitle: 'Diplôme d\'Ingénieur en Informatique et Management',
       educationSchool: 'Polytech Montpellier – École d\'Ingénieurs',
       educationPeriod: '2022 – 2026',
-      educationDescription: 'Diplôme d\'ingénieur équivalent Master (M.Eng)',
+      educationDescription: 'Diplômé en 2026 — Diplôme d\'ingénieur (grade de master)',
       languages: 'Langues',
       languagesFr: 'Français (Natif)',
       languagesEn: 'Anglais (Intermédiaire supérieur)',
       languagesEs: 'Espagnol (Intermédiaire)',
       skills: 'Compétences Techniques',
       availability: 'Disponibilité',
-      availabilityText: 'Disponible à partir de mars 2026',
+      availabilityText: 'Disponible à partir de novembre 2026',
       footer: '© 2025 Lucas VIGNAU – Créé avec passion 💙',
     },
   };
@@ -140,7 +140,7 @@ export function ContactPage({ language, onNavigateToHome }: ContactPageProps) {
       <motion.header
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        className="container mx-auto px-6 pt-24 pb-12"
+        className="container mx-auto px-6 pt-24 md:pt-28 pb-12"
       >
         <motion.button
           onClick={onNavigateToHome}
